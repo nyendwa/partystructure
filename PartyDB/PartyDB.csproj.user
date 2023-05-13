@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UserControls\Central.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Copperbelt.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Eastern.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Luapula.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Lusaka.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Muchinga.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Northern.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\NorthWestern.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Southern.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Western.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="UserControls\Central.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Copperbelt.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Eastern.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Luapula.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Lusaka.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Muchinga.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Northern.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\NorthWestern.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Southern.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Western.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,157 @@
+﻿<Window x:Class="PartyDB.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PartyDB.View"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="eSuite" 
+        Height="900" 
+        Width="1200"
+       Icon ="/Images/upnd.ico">
+ 
+    <Grid Background="#200000">
+        <StackPanel>
+            <Grid Height="20" Background="Black"/>
+            <Grid Margin="5">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Height="30" Width="30" Padding="2" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
+                        <materialDesign:PackIcon Kind="Twitter"/>
+                    </Button>
+                    <Button Height="30" Width="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
+                        <materialDesign:PackIcon Kind="Facebook"/>
+                    </Button>
+                    <Button Height="30" Width="30" Padding="4" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
+                        <materialDesign:PackIcon Kind="Youtube"/>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <Grid x:Name="MainGrid" Margin="330,20,10,10">
+            
+            
+            
+        </Grid>
+        
+        
+        <Grid Width="350" HorizontalAlignment="Left" Background="#344576">
+          
+            <ListView Margin="0 40" Foreground="LightGray" x:Name="ListViewMenu" SelectionChanged="ListViewMenu_SelectionChanged">
+                <ListViewItem Height="50">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Home" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="N.M.C" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Business" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Lusaka Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="48">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="DumpTruck" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Copperbelt Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="60">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Railroad" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Central Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="50">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Elephant" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Muchinga Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="50">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Fish" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Luapula Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="50">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="BowArrow" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Northern Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="50">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Spear" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Eastern Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="50">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Corn" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Southern Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="50">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="Waterfall" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="Western Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="50">
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="WeatherSunset" 
+                                                 Height="26" 
+                                                 HorizontalAlignment="Center"
+                                                 Margin="5"
+                                                 Width="30"/>
+                        <TextBlock Text="N/Western Province" FontSize="22" Margin="20,3,0,0" FontWeight="Bold"/>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
+            
+        </Grid>
+        
+    </Grid>
+</Window>
